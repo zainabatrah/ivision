@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=, initial-scale=1.0">
+        <link rel="stylesheet"
+            href="C:\Users\HP i5\Desktop\Ivision_page\css\style.css" />
+            <script src="https://kit.fontawesome.com/1229fc123b.js" crossorigin="anonymous"></script>
+           
+
+        <title>ivsiongrouplb</title>
+    </head>
+
+    <body id="feedback">
+        <div>
+            <div class="container">
+                <div class="logo">
+                    <img
+                        src="C:\Users\HP i5\Desktop\Ivision_page\Images\logo.jpg"
+                        alt="Ivison Group">
+                    <label> IvisionGroupLb </label>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a class="active"
+                                href="C:\Users\HP i5\Desktop\Ivision_page\HTML\main.html">home</a></li>
+                        <li><a class="active"
+                                href="C:\Users\HP i5\Desktop\Ivision_page\HTML\service.html">service</a></li>
+                        <li><a class="active"
+                                href="C:\Users\HP i5\Desktop\Ivision_page\HTML\contact.html">contact</a></li>
+                        <li><a class="active"
+                                href="C:\Users\HP i5\Desktop\Ivision_page\HTML\feedback.html">feedback</a></li>
+                    </ul>
+
+                </nav>
+                <div class="search_bar">
+                    <form>
+                        <input type="text" placeholder="search anything"
+                            name="p">
+                        <button type="submit"
+                            style="border: none; background: none;">
+                            <i class="fa-solid fa-magnifying-glass fa-beat"
+                                style="color: #000000;"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="container_feedback">
+                <form class="styleform">
+                    <h1 style="color:#43dd38;"> your feedback helps us benefits
+                        you.</h1>
+                    <input class="inp" type="text" required
+                        placeholder="enter your name " /><br><br>
+                    <input class="inp" type="email" required
+                        placeholder="enter your email" /><br><br>
+                    <input class="inp" type="text" placeholder="Describe your experience" /><br><br>
+                    <div class="rating">
+                        <header>how would you rate this service</header><br>
+                        <div class="stars"></div>
+                        <i class="fa-regular fa-star" onclick="ongoldcolor"></i>
+                        <i class="fa-regular fa-star" onclick="ongoldcolor"></i>
+                        <i class="fa-regular fa-star" onclick="ongoldcolor"></i>
+                        <i class="fa-regular fa-star" onclick="ongoldcolor"></i>
+                        <i class="fa-regular fa-star" onclick="ongoldcolor"></i>
+                    </div><br>
+
+                    <input class="inp" type="submit" value="send" /><br><br>
+                </form>
+            </div>
+
+            <script >
+                function ongoldcolor() {
+                    // Toggle between gray and gold color
+                    if (document.getElementByclassname(" fa-regular fa-star").style.color === 'gray') {
+                        document.getElementByclassname("fa-regular fa-star").style.color = 'gold';
+                    } else {
+                        document.getElementByclassname("fa-regular fa-star").style.color = 'gray';
+                    }
+                }
+           </script>
+            </body>
+
+            </html>
